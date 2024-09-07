@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="my-css-file.css" />
   <title>Robins porteføljeside v.1</title>
 </head>
 
 <body>
+
   <header>
     <h1>Robins porteføljeside v.1</h1>
   </header>
 
   <nav>
-    <ul>
+    <ul class="nav"> 
       <li><a href="/hjem">Home</a></li>
       <li><a href="/om-meg">Om meg</a></li>
       <li><a href="/ferdigheter">Ferdigheter</a></li>
@@ -49,101 +51,98 @@
 
         <label for="link">Prosjektlenke:</label>
         <input type="url" id="link" name="link" placeholder="https://">
+        
+        <label for="kategori">Kategori:</label> 
+        <input type="text" id="kategori" name="kategori" placeholder="F.eks Webapplikasjon"> 
 
-        <label for="kategori">Kategori:</label>
-        <input type="string" id="kategori" name="kategori" placeholder="F.eks Webapplikasjon">
-
-        <label for="status">Status:</label>
-        <input type="string" id="status" name="status" placeholder="F.eks begynt">
+        <label for="status">Status:</label> 
+        <input type="text" id="status" name="status" placeholder="F.eks begynt">
 
         <button type="submit">Opprett prosjekt</button>
       </form>
     </section>
 
     <!-- Liste over prosjekter -->
-</section>
+    <section class="grid1">
+      <article class="gi1"> 
+        <figure>
+          <img src="https://placehold.co/150x150" alt="Prosjekt 1 bilde" />
+          <figcaption>Beskrivelse</figcaption>
+          <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
+        </figure>
+      </article>
 
-<!-- Liste over prosjekter -->
-<section class="grid1">
-  <article class="gi"1>
-    <figure>
-      <img src="https://placehold.co/150x150" alt="Prosjekt 1 bilde" />
-      <figcaption>Beskrivelse</figcaption>
-      <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
-    </figure>
-  </article>
+      <article class="gi2"> 
+        <figure>
+          <img src="https://placehold.co/150x150" alt="Prosjekt 2 bilde" />
+          <figcaption>Beskrivelse</figcaption>
+          <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
+        </figure>
+      </article>
+      
+      <article class="gi3"> 
+        <figure>
+          <img src="https://placehold.co/150x150" alt="Prosjekt 3 bilde" />
+          <figcaption>Beskrivelse</figcaption>
+          <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
+        </figure>
+      </article>
 
-  <article class="gi"2>
-    <figure>
-      <img src="https://placehold.co/150x150" alt="Prosjekt 2 bilde" />
-      <figcaption>Beskrivelse</figcaption>
-      <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
-    </figure>
-  </article>
-  
-  <article class="gi"3>
-    <figure>
-      <img src="https://placehold.co/150x150" alt="Prosjekt 3 bilde" />
-      <figcaption>Beskrivelse</figcaption>
-      <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
-    </figure>
-  </article>
- 
-  <article class="gi"4>
-    <figure>
-      <img src="https://placehold.co/150x150" alt="Prosjekt 4 bilde" />
-      <figcaption>Beskrivelse</figcaption>
-      <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
-    </figure>
-  </article>
+      <article class="gi4"> 
+        <figure>
+          <img src="https://placehold.co/150x150" alt="Prosjekt 3 bilde" />
+          <figcaption>Beskrivelse</figcaption>
+          <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
+        </figure>
+      </article>
 
-  
-  <article class="gi"5>
-    <figure>
-      <img src="https://placehold.co/150x150" alt="Prosjekt 5 bilde" />
-      <figcaption>Beskrivelse</figcaption>
-      <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
-    </figure>
-  </article>
-  
-  <article class="gi6">
-    <figure>
-      <img src="https://placehold.co/150x150" alt="Prosjekt 6 bilde" />
-      <figcaption>Beskrivelse</figcaption>
-      <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
-    </figure>
-  </article>
-  
-  <article class="gi7">
-    <figure>
-      <img src="https://placehold.co/150x150" alt="Prosjekt 7 bilde" />
-      <figcaption>Beskrivelse</figcaption>
-      <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
-    </figure>
-  </article>
+      <article class="gi5"> 
+        <figure>
+          <img src="https://placehold.co/150x150" alt="Prosjekt 3 bilde" />
+          <figcaption>Beskrivelse</figcaption>
+          <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
+        </figure>
+      </article>
 
-  <article class="gi"8>
-    <figure>
-      <img src="https://placehold.co/150x150" alt="Prosjekt 8 bilde" />
-      <figcaption>Beskrivelse</figcaption>
-      <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
-    </figure>
-  </article>
+      <article class="gi6"> 
+        <figure>
+          <img src="https://placehold.co/150x150" alt="Prosjekt 3 bilde" />
+          <figcaption>Beskrivelse</figcaption>
+          <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
+        </figure>
+      </article>
 
+      <article class="gi7"> 
+        <figure>
+          <img src="https://placehold.co/150x150" alt="Prosjekt 3 bilde" />
+          <figcaption>Beskrivelse</figcaption>
+          <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
+        </figure>
+      </article>
 
-</section>
+      <article class="gi8"> 
+        <figure>
+          <img src="https://placehold.co/150x150" alt="Prosjekt 3 bilde" />
+          <figcaption>Beskrivelse</figcaption>
+          <figcaption><a href="#">Lenke til prosjekt</a></figcaption>
+        </figure>
+      </article>
+
+    </section>
+
   </main>
 
   <footer>
     <ul>
-        <li><a href="https://www.facebook.com/mittbrukernavn" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
-        <li><a href="https://www.instagram.com/mittbrukernavn" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-        <li><a href="https://www.linkedin.com/in/mittbrukernavn" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
-        <li><a href="https://github.com/mittbrukernavn" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></li>
-        <li><a href="https://x.com/mittbrukernavn" target="_blank"><i class="fa-brands fa-twitter"></i>TwitterNåX</a></li>
-      </ul>
+      <li><a href="https://www.facebook.com/mittbrukernavn" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+      <li><a href="https://www.instagram.com/mittbrukernavn" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+      <li><a href="https://www.linkedin.com/in/mittbrukernavn" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+      <li><a href="https://github.com/mittbrukernavn" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></li>
+      <li><a href="https://x.com/mittbrukernavn" target="_blank"><i class="fa-brands fa-twitter"></i> TwitterNåX</a></li> <!-- Sjekk bruken av Twitter-navnet -->
+    </ul>
     <p>&copy; 2024 Robins portefølje</p>
   </footer>
 
 </body>
+
 </html>
