@@ -1,0 +1,17 @@
+img {
+    max-width: 400px;
+    border: 1px solid black;
+  }
+  [role="checkbox"] {
+    border: 1px solid;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+  }
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px;
+    gap: 100px;
+  }
