@@ -1,0 +1,15 @@
+{
+"Projects": [
+    {
+        "id": 1,
+        "name": "Portefølje 1",
+        "description": "En enkel webapplikasjon for å vise prosjektene mine, ferdigheter og kontaktinformasjon." ,
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "date": "2024-09-06",
+        "image": "https://minnettsideellernoe.com/images/portefølje1.png",
+        "link": "https://github.com/brukerenmin/portefølje1",
+        "category": "webapplikasjon",
+        "status": "ferdig"
+    }
+]
+}
